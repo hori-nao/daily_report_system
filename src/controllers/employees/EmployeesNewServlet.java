@@ -12,10 +12,10 @@ import javax.servlet.http.HttpServletResponse;
 import models.Employee;
 
 @WebServlet("/employees/new")
-public class EmployeesNew extends HttpServlet {
+public class EmployeesNewServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
-    public EmployeesNew() {
+    public EmployeesNewServlet() {
         super();
 
     }
